@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+body {
+  background-color: #EAECA4;
+}
+
+.navbar {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar .box-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .box-navbar .logo img {
+  width: 297px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.register {
+  background-color: #557153;
+  color: white;
+  padding: 15px;
+  margin-right: -20px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.register:hover {
+  transform: translate(0, -3px);
+  padding: 20px;
+}
+
+
+
+.login {
+  background-color: #B6E2A1;
+  color: black;
+  padding: 15px 40px;
+  margin-left: -18px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 15px 0 rgba(0, 0, 0, 0.6);
+}
+
+.login:hover {
+  transform: translate(0, -6px);
+  padding: 20px 45px;
+}
+
+
+.navbar .box-navbar .box ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .box-navbar .box ul li {
+  list-style-type: none;
+  margin-left: 38px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.navbar .box-navbar .box ul li a {
+  text-decoration: none;
+}
+
+.cemara img {
+  width: 1000px;
+  height: 711px;
+  margin-top: -450px;
+  margin-left: 1px;
+}
+
+.tenda img {
+  width: 800px;
+  margin-left: 660px;
+  margin-top: -500px;
+}
+
+.text-tenda h1 {
+  font-size: 80px;
+  font-weight: normal;
+  text-align: right;
+  margin-right: 860px;
+  margin-top: 90px;
+}
+
+.text-tenda p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 860px;
+  line-height: 175%;
+}
+
+.obat img {
+  width: 800px;
+  margin-left: 60px;
+  margin-top: -520px;
+}
+
+.text-obat h1 {
+  font-size: 80px;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 860px;
+  line-height: auto;
+  margin-top: 100px;
+}
+
+.text-obat p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 860px;
+  line-height: 175%;
+}
+
+.tutor img {
+  width: 800px;
+  margin-left: 660px;
+  margin-top: -520px;
+}
+
+.text-tutor h1 {
+  font-size: 80px;
+  font-weight: normal;
+  text-align: right;
+  margin-top: 70px;
+  margin-right: 860px;
+}
+
+.text-tutor p {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 860px;
+  line-height: 175%;
+}
+
+.promotion h1 {
+  font-size: 28px;
+  text-align: left;
+  margin-left: 100px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.rank-mem {
+  margin-left: 90px;
+}
+
+.text-rank-mem {
+  color: #666666;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 100px;
+  margin-top: 10px;
+  line-height: 170.5%;
+}
+
+.motorcycle {
+  margin-left: 600px;
+  margin-top: -235px;
+}
+
+.text-motorcycle {
+  margin-left: -125px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 135%;
+}
+
+
+.text-motorcycle-2 {
+  color: #666666;
+  margin-left: 575px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 135%;
+  margin-top: 10px;
+}
+
+.discount {
+  margin-left: 1150px;
+  margin-top: -195px;
+}
+
+.text-discount {
+  margin-left: 880px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 135%;
+  margin-top: 13px;
+}
+
+.text-discount-2 {
+  color: #666666;
+  margin-left: 1050px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 135%;
+  margin-top: 10px;
+}
+
+.tentang1 {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.text-tentang-1 {
+  font-weight: bold;
+  line-height: 170.5%;
+  font-size: 16px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+
+.text-tentang-2 {
+  font-weight: bold;
+  line-height: 170.5%;
+  font-size: 16px;
+  margin-left: 560px;
+  margin-top: -137px;
+}
+
+
+.text-tentang-3 {
+  font-weight: bold;
+  line-height: 170.5%;
+  font-size: 16px;
+  margin-left: 1050px;
+  margin-top: -137px;
+}
+
+.phone {
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.phone-number {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 165%;
+  margin-left: 95px;
+}
+
+.email {
+  margin-left: 650px;
+  margin-top: -195px;
+}
+
+.email-address {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 165%;
+  margin-left: 560px;
+}
+
+.follow-us p {
+  font-size: 40px;
+  margin-left: 1105px;
+  margin-top: -195px;
+}
+
+.facebook {
+  margin-left: 1060px;
+  margin-top: 20px;
+}
+
+.instagram {
+  margin-left: 1135px;
+  margin-top: -65px;
+}
+
+.twitter {
+  margin-left: 1210px;
+  margin-top: -68px;
+}
+
+.whatsapp {
+  margin-left: 1280px;
+  margin-top: -65px;
+}

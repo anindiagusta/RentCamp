@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+body {
+  background-color: #EAECA4;
+}
+
+.navbar {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar .box-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .box-navbar .logo img {
+  width: 297px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.navbar .box-navbar .box ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .box-navbar .box ul li {
+  list-style-type: none;
+  margin-left: 38px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+
+/* .navbar .box-navbar .box ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: #B6E2A1;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  .navbar .box-navbar .box ul li a:hover:after {
+    width: 100%;
+  } */
+
+.navbar .box-navbar .box ul li a {
+  text-decoration: none;
+}
+
+.navbar .box-navbar .box ul li a img {
+  margin-top: -20px;
+}
+
+.cemara img {
+  width: 1000px;
+  height: 711px;
+  margin-left: 1px;
+  margin-top: -450px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+body {
+  background-color: #EAECA4;
+}
+
+.navbar {
+  width: 100%;
+  height: 100vh;
+}
+
+.navbar .box-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .box-navbar .logo img {
+  width: 297px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.navbar .box-navbar .box ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .box-navbar .box ul li {
+  list-style-type: none;
+  margin-left: 38px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+/* .navbar .box-navbar .box ul li a:after {
+      content: "";
+      position: absolute;
+      background-color: #B6E2A1;
+      height: 3px;
+      width: 0%;
+      left: 0;
+      bottom: -10px;
+      transition: 0.3s;
+    }
+    
+    .navbar .box-navbar .box ul li a:hover:after {
+      width: 100%;
+    } */
+
+.navbar .box-navbar .box ul li a {
+  text-decoration: none;
+}
+
+.navbar .box-navbar .box ul li a img {
+  margin-top: -20px;
+}
+
+.cemara img {
+  width: 1000px;
+  height: 711px;
+  margin-left: 1px;
+}
+
+.page {
+  width: 360px;
+  padding: 1% 0 0;
+  margin: auto;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #B6E2A1;
+  max-width: 360px;
+  /* margin: 0 auto 100px; */
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 5px;
+  /* margin-top: -100%; */
+}
+
+.tampilan{
+  font-family: "Inter", sans-serif;
+  outline: 0;
+  background-color: white;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form img {
+  width: 170px;
+  height: 170px;
+  margin: auto;
+  margin-top: -10px;
+}
+
+p {
+  text-align: left;
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  background-color: #557153;
+  margin-top: 10px;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 
+.hitam {
+  color: black;
+  text-decoration: none;
+} */
+
+.keluar {
+  background-color: #CA0000;
+  border-color: #CA0000;
+}
+
+.membership {
+  background-color: #C1A233;
+  border-color: #C1A233;
+}
+
+button:hover {
+  background: rgb(5, 5, 5);
+}
+
+.input-box {
+  font-family: "Inter", sans-serif;
+  outline: 0;
+  background: white;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.phone {
+  margin-top: -30px;
+  margin-left: 170px;
+}
+
+.phone-number {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 165%;
+  margin-left: 95px;
+}
+
+.email {
+  margin-left: 650px;
+  margin-top: -195px;
+}
+
+.email-address {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  line-height: 165%;
+  margin-left: 560px;
+}
+
+.follow-us p {
+  font-size: 40px;
+  margin-left: 1105px;
+  margin-top: -195px;
+}
+
+.facebook {
+  margin-left: 1060px;
+  margin-top: 20px;
+}
+
+.instagram {
+  margin-left: 1135px;
+  margin-top: -65px;
+}
+
+.twitter {
+  margin-left: 1210px;
+  margin-top: -68px;
+}
+
+.whatsapp {
+  margin-left: 1280px;
+  margin-top: -65px;
+}

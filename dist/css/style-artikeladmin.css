@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    margin-inline: auto;
+  }
+  
+  body {
+    background-color: #EAECA4;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .navbar .box-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navbar .box-navbar .logo img {
+    width: 297px;
+    height: 64px;
+    margin-top: 20px;
+  }
+  
+  .navbar .box-navbar .box ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar .box-navbar .box ul li {
+    list-style-type: none;
+    margin-left: 38px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+  
+  /* .navbar .box-navbar .box ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: #B6E2A1;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  .navbar .box-navbar .box ul li a:hover:after {
+    width: 100%;
+  } */
+  
+  .navbar .box-navbar .box ul li a {
+    text-decoration: none;
+  }
+  
+  .navbar .box-navbar .box ul li a img {
+    margin-top: -20px;
+  }
+  
+  .cemara img {
+    width: 1000px;
+    height: 711px;
+    margin-left: 1px;
+    margin-top: -450px;
+  }
+
+  .tambah {
+    background-color: #557153; 
+    border:none; 
+    border-radius:5px; 
+    width:120px; 
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 75px;
+  }
+
+  button {
+    background-color: #557153; 
+    border:none; 
+    border-radius:5px; 
+    width:120px; 
+    height:40px;
+    margin-bottom: 5px;
+  }
+
+  table {
+    border-color: #557153;
+    margin-left: 75px; 
+    margin-right: 75px; 
+    background-color:#B6E2A1;
+  }
+
+  button:hover{
+    background-color: black;
+  }
+
+  button a {
+    text-decoration: none; 
+    color:white;
+  }
+
+  /* .pencarian{
+    background-color: white;
+  } */
+
+  table, td, th {
+    border: 1px solid;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .detail{
+    text-align: justify;
+  }

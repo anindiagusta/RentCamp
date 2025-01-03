@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    margin-inline: auto;
+  }
+  
+  body {
+    background-color: #EAECA4;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .navbar .box-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .navbar .box-navbar .logo img {
+    width: 297px;
+    height: 64px;
+    margin-top: 20px;
+  }
+  
+  .navbar .box-navbar .box ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar .box-navbar .box ul li {
+    list-style-type: none;
+    margin-left: 38px;
+    margin-top: 100px;
+    font-weight: bold;
+  }
+  
+  /* .navbar .box-navbar .box ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: #B6E2A1;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+  }
+  
+  .navbar .box-navbar .box ul li a:hover:after {
+    width: 100%;
+  } */
+  
+  .navbar .box-navbar .box ul li a {
+    text-decoration: none;
+  }
+  
+  .navbar .box-navbar .box ul li a img {
+    margin-top: -20px;
+  }
+  
+  .cemara img {
+    width: 1000px;
+    height: 711px;
+    margin-left: 1px;
+    margin-top: -450px;
+  }
+
+  .image-artikel {
+    width: 650px;
+    height: 500px;
+    margin: auto;
+  }
+
+  .judul{
+    font-size: 32px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 18px;
+    text-align: justify;
+    white-space: pre-line;
+  }
+
+  .tanggal{
+    font-size: 16px;
+    color: #5F6368;
+    margin-left: 100px;
+  }
+
+  .phone {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 206px;
+    top: 1863px;
+  }
+  
+  .phone-number {
+    position: absolute;
+    width: 262px;
+    height: 78px;
+    left: 123px;
+    top: 1925px;
+  }
+  
+  .email {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 585px;
+    top: 1871px;
+  }
+  
+  .email-address {
+    position: absolute;
+    width: 305px;
+    height: 78px;
+    left: 497px;
+    top: 1925px;
+  }
+  
+  .follow-us p {
+    font-size: 40px;
+    margin-left: 1105px;
+    margin-top: -195px;
+  }
+  
+  .facebook {
+    margin-left: 1060px;
+    margin-top: 20px;
+  }
+  
+  .instagram {
+    margin-left: 1135px;
+    margin-top: -65px;
+  }
+  
+  .twitter {
+    margin-left: 1210px;
+    margin-top: -68px;
+  }
+  
+  .whatsapp {
+    margin-left: 1280px;
+    margin-top: -65px;
+  }

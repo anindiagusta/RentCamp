@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  /* font-family: 'Kodchasan', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body::background {
+  width: 1000px;
+  height: 1000px;
+}
+
+.container {
+  width: 90%;
+  margin-inline: auto;
+}
+
+.logo {
+  width: 297px;
+  height: 64px;
+  margin-top: 7px;
+}
+
+#register {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-bottom: 10px;
+  background-color: #B6E2A1;
+  border-radius: 37px;
+  box-shadow: 13px 13px 4px 0 rgba(114, 114, 114, 0.6);
+}
+
+#content {
+  text-align: center;
+  outline: none;
+}
+
+#title {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 40px;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.input-box {
+  margin: 15px;
+}
+
+.input-box input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 465px;
+  height: 67px;
+  box-shadow: 10px 12px 4px 0 rgba(137, 136, 136, 0.6);
+  font-size: 35px;
+}
+
+.input-box input::placeholder {
+  color: rgb(165, 164, 164);
+}
+
+input[type="text"] {
+  color: black;
+  padding: 0 10px;
+}
+
+input[type="email"] {
+  color: black;
+  padding: 0 10px;
+}
+
+input[type="password"] {
+  color: black;
+  padding: 0 10px;
+}
+
+input[type="tel"] {
+  color: black;
+  padding: 0 10px;
+}
+
+.submit [type="submit"] {
+  background-color: #557153;
+  outline: none;
+  border: none;
+  color: white;
+  width: 276px;
+  height: 67px;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-size: 40px;
+  box-shadow: 6px 6px 2px 0 rgba(114, 114, 114, 0.6);
+}
+
+.question {
+  font-size: 28px;
+  color: #557153;
+}
+
+.question a {
+  color: #00A944;
+  text-decoration: none;
+}
